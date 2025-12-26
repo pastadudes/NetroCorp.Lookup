@@ -6,6 +6,7 @@ public static class Services {
 		}
 		return service.Trim().ToLowerInvariant() switch {
 			"netrohost" => "NetroHost is a hosting service for everyone.",
+			"thecodingbot" => "TheCodingBot is a discord bot made by TheCodingGuy. It's in over a hundred servers!",
 			_ => null,
 		};
 	}
